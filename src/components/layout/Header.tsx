@@ -45,7 +45,7 @@ const Header = () => {
                         />
                       </svg>
                     </div>
-                    <div className="sm:min-w-0 absolute right-0">
+                    {/* <div className="sm:min-w-0 absolute right-0">
                       <ul className="flex flex-col group-hover:max-h-max group-hover:py-2 max-h-0 overflow-hidden 
                        duration-500 bg-white text-xs sm:text-base font-normal rounded-md
                        group-hover:shadow-md px-1 group-hover:border border-transparent group-hover:border-slate-200 cursor-pointer">
@@ -68,7 +68,7 @@ const Header = () => {
                           Network Programmability and Automation
                         </li>
                       </ul>
-                    </div>
+                    </div> */}
                   </li>
                 </ul>
               </nav>
