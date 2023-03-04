@@ -8,18 +8,26 @@ const Footer = () => {
     <>
       <hr className="mt-16 lg:mt-28" />
       <Wrapper>
-        <footer className="mt-8 lg:mt-14">
+        <footer className="mt-8 lg:mt-14 mb-6">
           <div className="flex flex-col md:flex-row mx-4">
             <div className="flex-1">
               <div>
                 <Link href={"#"}>
-                  <Image src={Logo} alt="logo" className="w-32 h-20 md:w-40 md:h-24" />
+                  <Image
+                    src={Logo}
+                    alt="logo"
+                    className="w-32 h-20 md:w-40 md:h-24"
+                  />
                 </Link>
               </div>
               <p className="text-base md:text-lg text-slate-600 mt-4 capitalize">
                 Certified Web 3.0 and Metaverse Developer A One and Quarter
                 Years Panaverse DAO Earn as you Learn Program Getting Ready for
                 the Next Generation of the Internet
+              </p>
+              <p className="text-base md:text-lg text-slate-600 mt-4 capitalize">
+                Website built by 
+                <Link href={"https://github.com/saadbutt27"} target={"_blank"} className="font-semibold hover:text-blue-500 duration-200"> Saad Nisar Butt</Link>
               </p>
               <div className="flex">
                 <Link
