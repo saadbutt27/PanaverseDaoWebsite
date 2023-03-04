@@ -61,8 +61,8 @@ const SpecializedTracks = () => {
               <SpecializedTrack image={AI} title={"Artificial Intelligence (AI) and Deep Learning Specialization"} />
               <SpecializedTrack image={Cloud} title={"Cloud-Native Computing Specialization"} />
               <SpecializedTrack image={Ambient} title={"Ambient Computing and IoT Specialization"} />
-              <SpecializedTrack image={Genomics} title={"Genomics and Bioinformatics Specialization"} />
-              <SpecializedTrack image={Network} title={"Network Programmability and Automation Specialization"} />
+              {/* <SpecializedTrack image={Genomics} title={"Genomics and Bioinformatics Specialization"} />
+              <SpecializedTrack image={Network} title={"Network Programmability and Automation Specialization"} /> */}
             </div>
           </div>
         </div>

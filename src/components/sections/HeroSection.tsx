@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Wrapper from "../Wrapper";
 import Button from "../sharedComps/Button";
+import HeroImage from "../../../public/images/profile.jpg"
 
 const HeroSection = () => {
   return (
@@ -32,11 +33,9 @@ const HeroSection = () => {
             </div>
             <div className="flex-1 mx-5">
               <Image
-                src={"/images/profile.jpg"}
+                src={HeroImage}
                 alt="Hero Image"
                 className="rounded-full"
-                width={550}
-                height={500}
               />
             </div>
           </div>

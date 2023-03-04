@@ -2,15 +2,15 @@ import Image, { StaticImageData } from "next/image";
 
 const SpecializedTrack = ({image, title}: {image:StaticImageData, title:string}) => {
   return (
-    <div className="flex items-center group border-b-2 border-slate-300 py-8">
-      <div className="bg-gradient-to-b from-blue-600 to-cyan-400 rounded">
+    <div className="flex items-center group border-b-2 border-slate-300 py-8 cursor-pointer">
+      <div className="bg-gradient-to-b from-blue-600 to-cyan-400 rounded relative">
         <div className="w-40 h-24 relative">
           <Image
             src={image}
             alt="Web 3.0"
             width={0}
             height={0}
-            className="rounded object-cover w-full h-full group-hover:translate-x-2 group-hover:-translate-y-2 duration-300 absolute inset-0"
+            className="rounded object-cover w-full h-full group-hover:translate-x-1 group-hover:-translate-y-1 duration-300 absolute inset-0 text-transparent"
           />
         </div>
       </div>

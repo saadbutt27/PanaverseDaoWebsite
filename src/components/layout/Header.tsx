@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import Wrapper from "../Wrapper";
+import Logo from "../../../public/images/panaverse-logo.webp"
 
 const Header = () => {
   return (
@@ -14,7 +15,7 @@ const Header = () => {
               <div>
                 <Link href={"#"}>
                   <Image
-                    src={"/images/panaverse_logo.png"}
+                    src={Logo}
                     alt="panaverse-dao-logo"
                     height={120}
                     width={120}
