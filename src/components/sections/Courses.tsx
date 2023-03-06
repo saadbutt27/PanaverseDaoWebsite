@@ -19,7 +19,7 @@ const Courses = () => {
               following three core courses.
             </p>
             <div className="mt-6">
-              <Button text={"Enroll Now"} />
+              <Button text={"Enroll Now"} type={true} />
             </div>
           </div>
           {/* <svg

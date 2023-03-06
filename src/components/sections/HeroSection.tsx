@@ -28,7 +28,7 @@ const HeroSection = () => {
                 Bioinformatic technoligies
               </p>
               <div className="mt-6">
-                <Button text={"Learn more"} />
+                <Button text={"Learn more"} type={true} />
               </div>
             </div>
             <div className="flex-1 mx-5">
