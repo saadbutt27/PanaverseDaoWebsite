@@ -34,7 +34,7 @@ const Footer = () => {
                   href={"https://www.facebook.com/groups/panaverse"}
                   target={"_blank"}
                 >
-                  <div className="p-2 mr-4 my-4 rounded-full bg-gradient-to-t from-blue-600 to-cyan-300">
+                  <div className="p-2 mr-4 my-4 rounded-full bg-gradient-to-t from-blue-600 to-cyan-300 hover:scale-105 duration-200duration-200">
                     <svg
                       stroke="currentColor"
                       fill="currentColor"
@@ -53,7 +53,7 @@ const Footer = () => {
                   href={"https://www.youtube.com/@panaverse/streams"}
                   target={"_blank"}
                 >
-                  <div className="p-2 mr-4 my-4 rounded-full bg-gradient-to-t from-blue-600 to-cyan-300 primary-gradient">
+                  <div className="p-2 mr-4 my-4 rounded-full bg-gradient-to-t from-blue-600 to-cyan-300 hover:scale-105 duration-200">
                     <svg
                       stroke="currentColor"
                       fill="currentColor"
@@ -69,7 +69,7 @@ const Footer = () => {
                   </div>
                 </Link>
                 <Link href={"https://github.com/panaverse"} target={"_blank"}>
-                  <div className="p-2 mr-4 my-4 rounded-full bg-gradient-to-t from-blue-600 to-cyan-300 primary-gradient">
+                  <div className="p-2 mr-4 my-4 rounded-full bg-gradient-to-t from-blue-600 to-cyan-300 hover:scale-105 duration-200">
                     <svg
                       stroke="currentColor"
                       fill="currentColor"
@@ -88,7 +88,7 @@ const Footer = () => {
                   href={"https://twitter.com/Panaverse_edu"}
                   target={"_blank"}
                 >
-                  <div className="p-2 mr-4 my-4 rounded-full bg-gradient-to-t from-blue-600 to-cyan-300 primary-gradient">
+                  <div className="p-2 mr-4 my-4 rounded-full bg-gradient-to-t from-blue-600 to-cyan-300 hover:scale-105 duration-200">
                     <svg
                       stroke="currentColor"
                       fill="currentColor"
