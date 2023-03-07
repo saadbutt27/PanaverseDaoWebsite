@@ -4,13 +4,14 @@ import OutcomePoster from "../../../public/images/outcome-poster.webp";
 
 const OutcomeSection = () => {
   return (
-    <section className="mt-16 lg:mt-28">
+    <section className="mt-24 lg:mt-40">
       <Wrapper>
         <div className="flex flex-col md:flex-row mx-4">
           <div className="flex-1 order-last md:order-first mt-8">
             <Image src={OutcomePoster} alt="Outcome-Poster" />
           </div>
-          <div className="flex-1">
+          <div className="flex-1 relative">
+            <div className="absolute right-0 md:h-80 md:w-80 bg-blue-300 blur-[150px] -z-20"></div>
             <h1 className="text-3xl sm:text-6xl leading-snug font-bold">
               The Outcome for Participants of the Program
             </h1>
@@ -25,7 +26,7 @@ const OutcomeSection = () => {
             <div className="flex mt-4">
               <div className="flex-1 flex flex-col gap-y-4 justify-between">
                 <div className="flex items-center gap-x-4 max-w-sm">
-                <div className="p-1 rounded-md bg-gradient-to-t from-blue-600 to-cyan-300 rotate-45">
+                  <div className="p-1 rounded-md bg-gradient-to-t from-blue-600 to-cyan-300 rotate-45">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -46,7 +47,7 @@ const OutcomeSection = () => {
                   </p>
                 </div>
                 <div className="flex items-center gap-x-4 max-w-sm">
-                <div className="p-1 rounded-md bg-gradient-to-t from-blue-600 to-cyan-300 rotate-45">
+                  <div className="p-1 rounded-md bg-gradient-to-t from-blue-600 to-cyan-300 rotate-45">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -90,7 +91,7 @@ const OutcomeSection = () => {
                   </p>
                 </div>
                 <div className="flex items-center gap-x-4 max-w-sm">
-                <div className="p-1 rounded-md bg-gradient-to-t from-blue-600 to-cyan-300 rotate-45">
+                  <div className="p-1 rounded-md bg-gradient-to-t from-blue-600 to-cyan-300 rotate-45">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
