@@ -40,7 +40,7 @@ const SpecializedTracks = () => {
               select one or more specializations consisting of two courses each.
             </p>
           </div>
-          <div className="flex flex-col lg:flex-row scroll-mt-24 h-auto md:h-screen">
+          <div className="flex flex-col lg:flex-row scroll-mt-24 md:h-screen">
             <div className="border-2 shadow-xl basis-3/5 mx-4 p-6">
               <h4 className="text-blue-700 text-base font-semibold">
                 Specialized Track
@@ -90,7 +90,7 @@ const SpecializedTracks = () => {
               <Link href={"#course-box"} onClick={() => handleChange("Network Programmability and Automation Specialization", "More than ever, network engineers are finding it challenging to complete their duties entirely manually. Network automation is now crucial due to new protocols, technologies, delivery models, and the requirement for enterprises to become more adaptable and agile. This course teaches network engineers how to automate systems with code using a variety of technologies and tools, including Linux, Python, APIs, and Git.", "NPA-351: CCNA 200-301 Certification", "NPA-361: Network Programmability and Automation")} >
                 <SpecializedTrack image={Network} title={"Network Programmability and Automation Specialization"} />
               </Link>
-              </div>
+            </div>
           </div>
         </div>
       </Wrapper>

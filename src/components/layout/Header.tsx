@@ -26,7 +26,7 @@ const Header = () => {
                 <li className="hover:text-blue-500 duration-200 select-none">
                   <Link href={"#"}>Home</Link>
                 </li>
-                <li className="group relative cursor-pointer  select-none">
+                <li className="group relative cursor-pointer select-none">
                   <div className="flex gap-x-1 items-center hover:text-blue-500">
                     <Link href={"/"}>Courses</Link>
                     <svg
@@ -45,29 +45,31 @@ const Header = () => {
                     </svg>
                   </div>
                   <div className="sm:min-w-0 absolute right-0">
-                      <ul className="flex flex-col group-hover:max-h-max group-hover:py-2 max-h-0 w-64 md:w-80 overflow-hidden 
+                    <ul
+                      className="flex flex-col group-hover:max-h-max group-hover:py-2 max-h-0 w-64 md:w-80 overflow-hidden 
                        duration-500 bg-white text-xs sm:text-base font-normal rounded-md
-                       group-hover:shadow-md px-1 group-hover:border border-transparent group-hover:border-slate-200 cursor-pointer">
-                        <li className="px-1 py-2 shrink-0 hover:bg-slate-300 duration-200">
-                          Web 3.0 and Metaverse Developer
-                        </li>
-                        <li className="px-1 py-2 shrink-0 hover:bg-slate-300 duration-200">
-                          Cloud Native Computing
-                        </li>
-                        <li className="px-1 py-2 shrink-0 hover:bg-slate-300  duration-200">
-                          Artificial Intelligence
-                        </li>
-                        <li className="px-1 py-2 shrink-0 hover:bg-slate-300  duration-200">
-                          Ambient Computing and IoT
-                        </li>
-                        <li className="px-1 py-2 shrink-0 hover:bg-slate-300  duration-200">
-                          Genomics and Bioinformatics
-                        </li>
-                        <li className="px-1 py-2 shrink-0 hover:bg-slate-300  duration-200">
-                          Network Programmability and Automation
-                        </li>
-                      </ul>
-                    </div>
+                       group-hover:shadow-md px-1 group-hover:border border-transparent group-hover:border-slate-200 cursor-pointer"
+                    >
+                      <li className="px-1 py-2 shrink-0 hover:bg-slate-300 duration-200">
+                        Web 3.0 and Metaverse Developer
+                      </li>
+                      <li className="px-1 py-2 shrink-0 hover:bg-slate-300 duration-200">
+                        Cloud Native Computing
+                      </li>
+                      <li className="px-1 py-2 shrink-0 hover:bg-slate-300  duration-200">
+                        Artificial Intelligence
+                      </li>
+                      <li className="px-1 py-2 shrink-0 hover:bg-slate-300  duration-200">
+                        Ambient Computing and IoT
+                      </li>
+                      <li className="px-1 py-2 shrink-0 hover:bg-slate-300  duration-200">
+                        Genomics and Bioinformatics
+                      </li>
+                      <li className="px-1 py-2 shrink-0 hover:bg-slate-300  duration-200">
+                        Network Programmability and Automation
+                      </li>
+                    </ul>
+                  </div>
                 </li>
               </ul>
             </nav>
